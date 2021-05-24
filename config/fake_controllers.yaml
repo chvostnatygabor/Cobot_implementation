@@ -1,0 +1,13 @@
+controller_list:
+  - name: fake_denver_arm_controller
+    joints:
+      - base_link__link_01
+      - base_link__link_02
+      - base_link__link_03
+      - base_link__link_04
+      - base_link__link_05
+      - base_link__link_06
+      - base_link__link_07
+initial:  # Define initial robot poses.
+  - group: denver_arm
+    pose: robot_ready

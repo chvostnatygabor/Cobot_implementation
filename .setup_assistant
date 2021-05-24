@@ -1,0 +1,11 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: denver5_description
+    relative_path: urdf/denver5.xacro
+    xacro_args: ""
+  SRDF:
+    relative_path: config/denver5.srdf
+  CONFIG:
+    author_name: Filip
+    author_email: fsleza17@student.auu.dk
+    generated_timestamp: 1620024509
